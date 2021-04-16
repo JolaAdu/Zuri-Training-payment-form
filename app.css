@@ -106,18 +106,25 @@ div button{
   .wrapper{
     padding: 10px;
     border-radius: 5px;
-    width:350px;
-    margin: 10px;
+    width:80%;
+    margin:10px auto;
   }
 
   .input-box input{
     height:2em;
     border-radius: 1em;
-    width: 25em;
-    padding-left: 1em;
+    width: 20em;
+    padding-left: 2em;
     
   }
   form{
-    margin-left: 1px;
+    margin-left:0px;
+    
+  }
+
+  .input-box input[type="radio"]{
+    display: inline-flex;
+    margin: 0em -8em 0em -9em;
+    transform: scale(0.6);
   }
 }
